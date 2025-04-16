@@ -109,6 +109,7 @@
       }
     });
   </script>
+  
   <script>
     const toggle = document.getElementById('menu-toggle');
     const navMenu = document.getElementById('nav-menu');
@@ -120,13 +121,13 @@
     window.addEventListener('scroll', () => {
       const navbar = document.getElementById("navbar");
       if (window.scrollY > 200) {
-        navbar.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+        navbar.style.backgroundColor = "color: #fff";
         navbar.style.backdropFilter = "blur(10px)";
         navbar.style.webkitBackdropFilter = "blur(10px)";
       } else {
-        navbar.style.backgroundColor = "rgba(255, 255, 255, 0.2)";
-        navbar.style.backdropFilter = "blur(10px)";
-        navbar.style.webkitBackdropFilter = "blur(10px)";
+        // navbar.style.backgroundColor = "rgba(255, 255, 255, 0.2)";
+        // navbar.style.backdropFilter = "blur(10px)";
+        // navbar.style.webkitBackdropFilter = "blur(10px)";
       }
     });
   </script>
